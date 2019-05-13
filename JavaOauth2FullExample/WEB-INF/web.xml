@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<web-app version="4.0" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee">
+
+
+    <servlet>
+        <servlet-name> Home Page </servlet-name>
+        <jsp-file> /index.jsp </jsp-file>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name> Home Page </servlet-name>
+        <url-pattern> /home </url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name> Server Example </servlet-name>
+        <jsp-file> /serverFlowExample.jsp </jsp-file>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name> Server Example </servlet-name>
+        <url-pattern> /server </url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name> Client Example </servlet-name>
+        <jsp-file> /clientFlowExample.jsp </jsp-file>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name> Client Example </servlet-name>
+        <url-pattern> /client </url-pattern>
+    </servlet-mapping>
+
+</web-app>
